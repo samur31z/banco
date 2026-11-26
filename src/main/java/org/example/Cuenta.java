@@ -1,7 +1,7 @@
 package org.example;
 
 /** Clase cuentaCorriente*/
-public class CuentaCorriente {
+public class Cuenta {
     String dni;
     String nombreTitular;
     double saldo;
@@ -11,7 +11,7 @@ public class CuentaCorriente {
      * @param dni dni del titular de la cuenta
      * @param nombreTitular nombre del titular de la cuenta
      */
-    CuentaCorriente(String dni, String nombreTitular) {
+    Cuenta(String dni, String nombreTitular) {
         this.dni = dni;
         this.nombreTitular = nombreTitular;
         this.saldo = 0;

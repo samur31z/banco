@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CuentaCorrienteTest {
 
-    private CuentaCorriente cuentaCorriente;
+    private Cuenta cuentaCorriente;
 
     @BeforeEach
     void setUp(){
-        cuentaCorriente = new CuentaCorriente("1111111A", "José García");
+        cuentaCorriente = new Cuenta("1111111A", "José García");
     }
 
     @Test
