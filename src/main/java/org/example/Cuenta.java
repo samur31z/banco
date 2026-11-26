@@ -33,7 +33,7 @@ public class Cuenta {
      */
     public boolean sacarDinero(double saldoASacar) {
         boolean esPosible = false;
-        if (saldoASacar <400 && saldoASacar <= this.saldo) {
+        if (saldoASacar <=400 && saldoASacar <= this.saldo) {
             this.saldo = this.saldo - saldoASacar;
             esPosible = true;
         }
